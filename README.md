@@ -1,9 +1,9 @@
-🛒 E-Commerce Web Application (React.js)
+E-Commerce Web Application (React.js)
 
 A responsive E-Commerce frontend application built using React.js.
 The application allows users to browse products, add items to the cart, manage quantities, and view dynamic total pricing.
 
-🚀 Features
+Features
 
 Product Listing Page
 
@@ -25,7 +25,7 @@ Client-Side Routing using React Router
 
 Responsive Design
 
-🛠 Tech Stack
+Tech Stack
 
 Frontend
 
@@ -47,7 +47,7 @@ Storage
 
 localStorage (Cart Persistence)
 
-📂 Project Structure
+Project Structure
 src/
  ├── components/
  │     ├── Navbar.jsx
@@ -66,7 +66,7 @@ src/
  ├── App.jsx
  └── main.jsx
 
-🧠 Core Concepts Implemented
+Core Concepts Implemented
 
 Component-Based Architecture
 
@@ -80,11 +80,11 @@ Array Methods (map, filter, reduce)
 
 Persistent Storage using localStorage
 
-⚙️ Installation & Setup
+Installation & Setup
 
 Clone the repository:
 
-git clone <your-repository-link>
+git clone <https://github.com/niharikaannepu/ecommerce-UI.git>
 
 
 Navigate to the project folder:
@@ -106,7 +106,7 @@ Open in browser:
 
 http://localhost:5173
 
-📌 How It Works
+How It Works
 
 Products are displayed dynamically from a data file.
 
@@ -120,7 +120,7 @@ Cart data is stored in localStorage to prevent data loss on refresh.
 
 Navigation between pages is handled by React Router.
 
-🎯 Future Enhancements
+Future Enhancements
 
 Backend Integration (FastAPI / Django)
 
