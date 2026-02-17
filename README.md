@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+🛒 E-Commerce Web Application (React.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive E-Commerce frontend application built using React.js.
+The application allows users to browse products, add items to the cart, manage quantities, and view dynamic total pricing.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+Product Listing Page
 
-### `npm start`
+Add to Cart Functionality
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Quantity Increment / Decrement
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Remove Items from Cart
 
-### `npm test`
+Dynamic Total Price Calculation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Product Search Functionality
 
-### `npm run build`
+Category-Based Filtering
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cart Persistence using localStorage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Client-Side Routing using React Router
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Responsive Design
 
-### `npm run eject`
+🛠 Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+JavaScript (ES6+)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Router DOM
 
-## Learn More
+Context API
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+HTML5 & CSS3
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+State Management
 
-### Code Splitting
+React Context API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Storage
 
-### Analyzing the Bundle Size
+localStorage (Cart Persistence)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📂 Project Structure
+src/
+ ├── components/
+ │     ├── Navbar.jsx
+ │     ├── ProductCard.jsx
+ │
+ ├── pages/
+ │     ├── Home.jsx
+ │     ├── Cart.jsx
+ │
+ ├── context/
+ │     ├── CartContext.jsx
+ │
+ ├── data/
+ │     ├── products.js
+ │
+ ├── App.jsx
+ └── main.jsx
 
-### Making a Progressive Web App
+🧠 Core Concepts Implemented
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Component-Based Architecture
 
-### Advanced Configuration
+Global State Management using Context API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+React Hooks (useState, useEffect, useContext)
 
-### Deployment
+Client-Side Routing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Array Methods (map, filter, reduce)
 
-### `npm run build` fails to minify
+Persistent Storage using localStorage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone <your-repository-link>
+
+
+Navigate to the project folder:
+
+cd ecommerce-ui
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+
+Open in browser:
+
+http://localhost:5173
+
+📌 How It Works
+
+Products are displayed dynamically from a data file.
+
+Users can add products to the cart.
+
+If a product already exists in the cart, its quantity increases.
+
+The total price updates dynamically using JavaScript reduce method.
+
+Cart data is stored in localStorage to prevent data loss on refresh.
+
+Navigation between pages is handled by React Router.
+
+🎯 Future Enhancements
+
+Backend Integration (FastAPI / Django)
+
+Database Integration (MySQL / MongoDB)
+
+User Authentication (JWT)
+
+Payment Gateway Integration
+
+Order History Feature
+
+Admin Dashboard
